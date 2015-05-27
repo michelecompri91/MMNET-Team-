@@ -11,7 +11,8 @@
   
   The minimum memory requirement for Studio and the Titanium SDK is as follows:
   - for Ubuntu: 1.5 GB   
-  - for Microsoft:1 GB - for OS X:1.5 GB
+  - for Microsoft:1 GB 
+  - for OS X:1.5 GB
   
   As a general rule, 4 GB RAM is usually adequate to run the whole Titanium environment. 
 

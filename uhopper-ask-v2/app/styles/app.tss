@@ -1,0 +1,10 @@
+'Window[platform=android]':{
+	backgroundColor:"white",
+	// modal: true,
+	windowSoftInputMode:Ti.UI.Android.SOFT_INPUT_ADJUST_UNSPECIFIED, 
+}
+
+'Window[platform=ios]':{
+	backgroundColor: "white",  
+	top:"20dp" //
+}

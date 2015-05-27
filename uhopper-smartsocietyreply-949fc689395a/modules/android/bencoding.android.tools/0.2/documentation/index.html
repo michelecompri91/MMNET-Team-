@@ -1,0 +1,86 @@
+<p>benCoding.Android.Tools</p>
+<p>A collection of utilities designed to make working with Titanium on Android alittle easier.</p>
+<h2>Before you start</h2>
+
+<ul>
+<li>This is an Android only module</li>
+<li>Before using this module you first need to install the package. If you need instructions on how to install a 3rd party module please read this installation guide.</li>
+</ul>
+<h2>Download the release</h2>
+
+<p>The go to the <a href="https://github.com/benbahrenburg/benCoding.Android.Tools/tree/master/dist">dist</a> folder. This will have a release compiled for anyone download it from github.</p>
+<h2>Building from source?</h2>
+
+<p>If you are building from source you will need to do the following:
+<em> Modify your build.properties to reflect the path to your android and other directors
+</em> You might need to update your .classpath depending on your setup.</p>
+<h2>Setup</h2>
+
+<ul>
+<li>Download the latest release from the releases folder ( or you can build it yourself )</li>
+<li>Install the bencoding.sms module. If you need help here is a "How To" <a href="https://wiki.appcelerator.org/display/guides/Configuring+Apps+to+Use+Modules">guide</a>. </li>
+<li>You can now use the module via the commonJS require method, example shown below.</li>
+</ul>
+<pre><code>
+var tools = require('bencoding.android.tools');
+</code></pre>
+
+<h2>Methods</h2>
+
+<p><b>intentAvailable</b>( Ti.Android.Intent )
+This method checks if there is an app on your device that can handle a specific intent.</p>
+<p><b>Parameters</b>
+intent : Ti.Android.Intent
+Ti.Android.Intent to be used in checking for availability.</p>
+<p><b>Returns</b>
+Boolean</p>
+<p><b>Example</b>
+<pre><code>
+    var platformTools = tools.createPlatform();
+    var intent = Ti.Android.createIntent({
+        action: Ti.Android.ACTION_VIEW,
+        type: "application/pdf",
+        data: session.tempFile.nativePath
+    });</p>
+<pre><code>if(platformTools.intentAvailable(intent)){
+    try {
+        Ti.Android.currentActivity.startActivity(intent);
+    } catch(e) {
+        Ti.API.debug(e);
+        alert('Something went wrong');
+    }
+}else{
+    alert("Please go to the Google Play Store and download a PDF reader");          
+}
+</code></pre>
+<p></code></pre></p>
+<hr />
+<p><b>restartApp</b>
+This method restarts your Titanium app</p>
+<p><b>Parameters</b>
+None</p>
+<p><b>Returns</b>
+None</p>
+<p><b>Example</b>
+<pre><code>
+    var platformTools = tools.createPlatform();
+    //Restarts your Titanium App
+    platformTools.restartApp();</p>
+<p></code></pre></p>
+<hr />
+<h2>Licensing & Support</h2>
+
+<p>This project is licensed under the OSI approved Apache Public License (version 2). For details please see the license associated with each project.</p>
+<p>Developed by <a href="http://bahrenburgs.com">Ben Bahrenburg</a> available on twitter <a href="http://twitter.com/benCoding">@benCoding</a></p>
+<h2>Learn More</h2>
+
+<h3>Examples</h3>
+
+<p>Please check the module's example folder or view the <a href="https://github.com/benbahrenburg/benCoding.Android.Extras/tree/master/example">sample on github</a> .</p>
+<h3>Twitter</h3>
+
+<p>Please consider following the <a href="http://www.twitter.com/benCoding">@benCoding Twitter</a> for updates 
+and more about Titanium.</p>
+<h3>Blog</h3>
+
+<p>For module updates, Titanium tutorials and more please check out my blog at <a href="http://benCoding.com">benCoding.Com</a>.</p>

@@ -1,0 +1,122 @@
+"#sv":{
+	top:"100dp",
+	bottom: "80dp",
+	scrollType:"vertical"
+}
+
+
+"#b_delete":{
+	top: "50dp",
+	left:0,
+	right:0,
+	height:"50dp",
+	backgroundColor: "#efefef",
+	title: "DELETE",
+	color: "#898989",
+	font:{
+		fontSize: "18dp",
+		fontFamily: "Nunito-Regular"
+	}
+}
+
+
+"#v_container":{
+	left: "20dp",
+	right: "20dp",
+	top: "2dp"
+}
+
+"#imw_image":{
+	left: 0,
+	top:"5dp",
+	height:"200dp", 
+	windth:"200dp"	
+}
+
+"#v_positive_answer":{
+	height:"50dp",
+	left:0,
+	right:0
+}
+
+"#img_ok":{
+	left:0,
+	width: "25dp",
+	height: "25dp",
+	image: "/ok.png"
+}
+
+"#lbl_answer":{
+	left: "40dp",
+	text: "Answered",
+	color: "#8bbf37"
+}
+
+"#v_devider":{
+	top: "2dp",
+	left: 0,
+	right: 0,
+	height: 1,
+	backgroundColor: "#d4d4d4"
+}
+
+".tag":{
+	left: 0,
+	font:{
+		fontSize: "18dp"
+	},
+	top: "20dp", 
+	color: "#ff9201"
+}
+
+"#lbl_tag_question":{
+	text: "QUESTION",
+	top: "10dp",
+	font:{
+		fontSize: "20dp",
+		fontFamily: "Nunito-Regular"
+	},
+}
+
+
+"#lbl_question":{
+	left: 0,
+	height: "65dp",
+	top: "20dp", 
+	font:{
+		fontSize: "18dp",
+		fontFamily: "Nunito-Regular"
+	},
+	color: "#545454"
+}
+
+"#lbl_date_time":{
+	left: 0,
+	top:"10dp",
+	color: "#acacac",
+	font:{
+		fontSize: "18dp",
+		fontFamily: "Nunito-Regular"
+	}
+}
+
+"#lbl_tag_answer":{
+	text: "ANSWER",
+	top: "10dp",
+	font:{
+		fontSize: "20dp",
+		fontFamily: "Nunito-Regular"
+	},
+}
+
+
+
+
+
+
+
+
+
+
+
+

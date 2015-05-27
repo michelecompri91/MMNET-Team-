@@ -1,0 +1,38 @@
+"#v_action_bar":{
+	
+	left: 0,
+	right: 0,
+	height: "50dp",
+	backgroundColor: "#feb100",
+	top:0
+	
+}
+
+
+"#v_tabs":{
+	left: 0,
+	right: 0,
+	height: "50dp",
+	backgroundColor: "#fcc047",
+	buttom:0
+}
+ 
+
+"#b_logout":{
+	width: "25dp",
+	height: "25dp",
+	right: "10dp",
+	backgroundImage: "/logout.png"
+}
+
+
+"#app_icon":{
+	image: "/logo.png",
+	width: "auto",
+	height:"50dp"
+}
+
+ 
+
+ 
+

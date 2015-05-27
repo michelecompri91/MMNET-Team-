@@ -1,0 +1,71 @@
+"#sv":{
+	top: 0,
+	left:0,
+	right:0,
+	bottom:0
+}
+
+
+
+"#lbl_ask":{
+	left: "20dp",
+	font:{
+		fontSize: "20dp",
+		fontFamily: "Nunito-Regular"
+	},
+	top: "20dp",
+	text: "REPLY TO THE QUESTION",
+	color: "#ff9201"
+}
+
+"#lbl_devider":{
+	top: "2dp",
+	left: "20dp",
+	right: "20dp",
+	height: 1,
+	backgroundColor: "#d4d4d4"
+}
+
+"#v_txt_msg":{
+	borderRadius: 5,
+	backgroundColor: "#efefef",
+	top: "20dp",
+	height: "200dp",
+	left: "20dp",
+	right: "20dp",
+	color:"black",
+	borderWidth: 2,
+	borderColor: "#e0e0e0"
+}
+
+"#txt_msg":{
+	backgroundColor: "transparent",
+	top: "5dp",
+	left: "5dp",
+	right: "5dp",
+	bottom: "5dp",
+	color: "#545454",
+	font:{
+		fontSize: "20dp",
+		fontFamily: "Nunito-Regular"
+	}
+}
+
+"#b_reply":{
+	top: "20dp",
+	right: "20dp",
+	width: "100dp",
+	borderRadius: 5,
+	backgroundColor: "#feb100",
+	title: "REPLY",
+	font:{
+		fontSize: "18dp",
+		fontFamily: "Nunito-Regular"
+	},
+	color: "white",
+	shadowColor: "#898989",
+	shadowOffset:{
+		x:2,
+		y:3
+	}
+}

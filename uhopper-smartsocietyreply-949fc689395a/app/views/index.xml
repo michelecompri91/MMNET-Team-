@@ -1,0 +1,24 @@
+<Alloy>
+	<Window id="index" onClose="destroyDbAccess">
+		
+		<Require src="action_bar" type="view" id="v_action_bar"></Require>
+		
+		<!-- this button is used just for fire events, it should be not visible -->
+		<Button id="b_event" visible="false" title="index_button"></Button>
+		
+		<ScrollableView id="sv">
+	 		<View id="v_ls_questions">
+	 			<Require src="ls_questions" type="view" id="ls_questions"></Require>
+	 		</View>
+	 		<View id="v_ls_accepted_questions">
+	 			<Require src="ls_accepted_questions" type="view" id="ls_accepted_questions"></Require>
+	 		</View>
+			<View id="v_ls_history">
+				<Require src="ls_history" type="view" id="ls_history"></Require>
+			</View> 
+		</ScrollableView> 
+		
+		<Require src="footer" type="view" id="v_footer"></Require>
+		
+	</Window>
+</Alloy>

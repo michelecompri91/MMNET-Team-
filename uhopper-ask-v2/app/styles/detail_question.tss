@@ -1,0 +1,90 @@
+"#sv":{
+	top:"100dp",
+	bottom: "80dp",
+	scrollType:"vertical"
+}
+
+
+"#b_delete":{
+	top: "50dp",
+	left:0,
+	right:0,
+	height:"50dp",
+	backgroundColor: "#efefef",
+	title: "DELETE",
+	color: "#898989",
+	font:{
+		fontSize: "18dp",
+		fontFamily: "Nunito-Regular"
+	}
+}
+
+"#v_container":{
+	left: "20dp",
+	right: "20dp",
+	top: "25dp"
+}
+
+"#lbl_tag":{
+	left: 0,
+	font:{
+		fontSize: "20dp",
+		fontFamily: "Nunito-Regular"
+	},
+	top: 0,
+	text: "QUESTION:",
+	color: "#ff9201",
+}
+ 
+"#v_devider":{
+	top: "2dp",
+	left: 0,
+	right: 0,
+	height: 1,
+	backgroundColor: "#d4d4d4"
+}
+
+"#lbl_question":{
+	left: 0,
+	font:{
+		fontSize: "18dp",
+		fontFamily: "Nunito-Regular"
+	},
+	top: "20dp", 
+	color: "#545454"
+}
+
+"#lbl_date_time":{
+	left: 0,
+	top:"10dp",
+	color: "#acacac",
+	font:{
+		fontSize: "18dp",
+		fontFamily: "Nunito-Regular"
+	}
+}
+
+"#lbl_indirizzo":{
+	left: 0,
+	top:"10dp",
+	color: "#acacac",
+	font:{
+		fontSize: "18dp",
+		fontFamily: "Nunito-Regular"
+	}
+}
+
+"#imw_image":{
+	left: 0,
+	top:"5dp",
+	height:"400dp", 
+	windth:"900dp"	
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+<Alloy>
+	<ItemTemplate id="row" name="template" bindId="id_question"> 
+		<View id="v_container" bindId="v_container"> 
+           			 
+   			<View id="v_lbl">
+   				<View id="v_lbl_question">
+       				<Label id="lbl_question" bindId="lbl_question" ></Label>
+       			</View>
+       			<View id="v_lbl_time">
+       				<Label id="lbl_date_time" bindId="lbl_date_time"></Label>
+   				</View>
+   			</View>
+   			
+   			<View id="v_devider"></View>
+   			
+   			<Button id="b_arrow"></Button>
+   			
+   		</View>
+	</ItemTemplate>
+</Alloy>

@@ -1,0 +1,17 @@
+"#win_popup_loader":{
+	backgroundColor:"transparent",
+	backgroundImage:"transparent"
+}
+
+"#v_transparent":{
+	width:"100%",
+	height:"100%",
+	opacity: 0.9
+}
+
+"#v_container":{
+	width: "90%",
+	height: "270dp",
+	backgroundColor: "#efefef", 
+	borderRadius: 5
+}

@@ -1,0 +1,27 @@
+'Window[platform=android]':{
+	backgroundColor:"white",
+	// modal: true,
+	windowSoftInputMode:Ti.UI.Android.SOFT_INPUT_ADJUST_UNSPECIFIED, 
+}
+
+'Window[platform=ios]':{
+	backgroundColor: "white",  
+	top:"20dp" //
+}
+
+
+"#v_devider_left":{
+	left: 0,
+	top:0,
+	bottom: 0,
+	width: 1,
+	backgroundColor: "#cfcfcf" 
+}
+
+"#v_devider_right":{
+	right: 0,
+	top:0,
+	bottom: 0,
+	width: 1,
+	backgroundColor: "#cfcfcf" 
+}

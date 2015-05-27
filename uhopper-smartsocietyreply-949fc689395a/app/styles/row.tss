@@ -1,0 +1,70 @@
+"#row":{
+	height: "90dp",
+	left:0,
+	right:0,
+}
+
+"#v_container":{
+	left:0,
+	right:0,
+	height: "90dp"
+}
+
+
+"#v_lbl":{
+	left:"20dp",
+	right: "65dp",
+	width: "auto",
+	top: 0,
+	bottom: 0,
+	touchEnabled: false
+}
+
+"#v_lbl_question":{
+	top: "10dp",
+	height: "40dp"
+}
+
+"#v_lbl_time":{
+	bottom: "10dp",
+	height: "30dp"
+}
+
+"#lbl_question":{
+	color: "#545454", 
+	left: 0,
+	right: 0,
+	top: 0,
+	font:{
+		fontSize: "16dp",
+		fontFamily: "Nunito-Regular"
+	}
+}
+
+"#lbl_date_time":{
+	color: "#acacac",
+	left: 0,
+	right: 0,
+	bottom: 0,
+	font:{
+		fontSize: "16dp",
+		fontFamily: "Nunito-Regular"
+	}
+}
+
+"#v_devider":{
+	width: 1,
+	top: "10dp",
+	bottom: "10dp",
+	backgroundColor: "#c9c9c9",
+	right: "62dp",
+	touchEnabled: false
+}
+
+"#b_arrow":{
+	right: "20dp",
+	width: "15dp",
+	height: "20dp",
+	backgroundImage: "/arrow.png",
+	touchEnabled: false
+}

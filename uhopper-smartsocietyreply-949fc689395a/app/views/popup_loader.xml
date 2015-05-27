@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="win_popup_loader">
+		
+		<View id="v_transparent"></View>
+		
+		<View id="v_container">
+			 <Require id="loading" type="widget" src="com.appcelerator.loading"/>
+		</View>
+		
+	</Window>
+</Alloy>

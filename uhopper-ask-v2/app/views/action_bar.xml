@@ -1,0 +1,11 @@
+<Alloy>
+	
+	<View id="v_action_bar">
+		
+		<ImageView id="app_icon" onClick="doClick"></ImageView>
+		<Button id="b_notification" onClick="doClick"></Button> 
+		<Button id="b_refresh" onClick="doClick"></Button>
+		
+	</View>
+	
+</Alloy>

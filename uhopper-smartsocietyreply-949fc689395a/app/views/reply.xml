@@ -1,0 +1,14 @@
+<Alloy>
+	
+		<View id="sv" layout="vertical">
+		
+			<Label id="lbl_ask"></Label>
+			<View id="lbl_devider"></View>
+			<View id="v_txt_msg">
+				<TextArea id="txt_msg"></TextArea>
+			</View>
+			<Button id="b_reply" onClick="doClick"></Button>
+		
+		</View>
+
+</Alloy>

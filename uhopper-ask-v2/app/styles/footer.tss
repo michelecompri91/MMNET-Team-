@@ -1,0 +1,56 @@
+"#v_footer":{
+	height: "71dp",
+	left: 0,
+	right: 0, 
+	bottom: 0
+}
+
+"#b_add":{
+	width: "80dp",
+	height:"71dp",
+	bottom: 0,
+	backgroundImage: "/add.png"
+}
+
+".btn":{
+	width: "50%",
+	height: "55dp",
+	bottom: 0
+}
+
+".img":{
+	width: "30dp",
+	height: "30dp",
+	touchEnabled: false
+}
+
+"#b_history":{
+	right: 0, 
+	backgroundColor: "#feb100"
+}
+
+"#b_img_history":{ 
+	backgroundImage: "/history.png",
+	right: "30dp"
+}
+
+
+"#b_questions":{
+	left: 0,
+	backgroundColor:"#d87000"  
+}
+
+"#b_img_questions":{ 
+	backgroundImage: "/list.png",
+	left: "30dp"
+}
+
+"#v_transpsarence":{
+	backgroundColor:"white",
+	opacity:"0.9",
+	top:0,
+	left:0,
+	right:0,
+	bottom:0
+}
+

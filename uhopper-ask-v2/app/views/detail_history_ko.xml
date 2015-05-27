@@ -1,0 +1,29 @@
+<Alloy>
+	<Window id="win_detail_history_ko">
+		
+		<Require src="action_bar" type="view" id="v_action_bar"></Require>
+		
+		<Button id="b_delete" onClick="doClick"></Button>
+		
+		<Button id="b_event" visible="false"></Button> 		<!-- used just for fire event -->
+
+		<ScrollView id="sv">
+			<View id="v_container" layout="vertical">
+				
+				<View id="v_negative_answer">
+					<ImageView id="img_ko"></ImageView>
+					<Label id="lbl_not_answer"></Label>
+				</View>
+				
+				<Label id="lbl_tag_question" class="tag"></Label>
+				<View id="v_devider"></View>
+				<Label id="lbl_question"></Label>
+			</View>
+		</ScrollView>
+		
+		
+		
+		<Require src="footer" type="view" id="v_footer"></Require>
+		
+	</Window>
+</Alloy>

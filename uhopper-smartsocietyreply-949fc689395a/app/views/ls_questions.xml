@@ -1,0 +1,8 @@
+<Alloy>
+	
+	<ListView id="listView"  defaultItemTemplate="template" separatorColor='transparent'>
+		 <Templates>  
+           <Require src="row" id="template_row" />
+        </Templates>
+	</ListView> 
+</Alloy>

@@ -1,0 +1,35 @@
+<Alloy> 
+	<Collection src="question" ></Collection>
+	<ListView id="listView" defaultItemTemplate="template" separatorColor='transparent' >
+		 <Templates>  
+           	<ItemTemplate id="row" name="template" bindId="id_question"> 
+           		
+           		<View id="v_container" bindId="v_container"> 
+           			 
+           			<View id="v_lbl">
+           				<View id="v_lbl_question">
+	           				<Label id="lbl_question" bindId="lbl_question"></Label>
+	           			</View>
+	           			<View id="v_lbl_time">
+	           				<Label id="lbl_date_time" bindId="lbl_date_time"></Label>
+           				</View>
+           			</View>
+           			
+           			<View id="v_devider"></View>
+           			
+           			<Button id="b_arrow"></Button>
+           			
+           		</View>
+           	
+           	</ItemTemplate>
+        </Templates>
+        
+        <!-- <ListSection dataCollection="question"
+        			 dataTransform="transformFunction">
+	        <ListItem   lbl_question:text="{content}" 
+	        			lbl_date_time:text="{timestamp}"
+	        			itemId="{timestamp}"/>
+	    </ListSection> -->
+        
+	</ListView> 
+</Alloy>

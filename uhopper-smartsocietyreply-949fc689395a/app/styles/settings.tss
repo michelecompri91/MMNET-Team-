@@ -1,0 +1,44 @@
+"#v_container":{
+	backgroundColor: "white",
+	height: "400dp",
+	left: "20dp",
+	right: "20dp",
+	borderRadius: 10, 
+	layout: "vertical"
+}
+
+"#v_shadow":{
+	top: 0,
+	left: 0,
+	right:0,
+	bottom: 0,
+	backgroundColor: "black",
+	opacity: 0.8
+}
+
+"#lbl_host":{
+	top : "50dp"
+}
+
+"Label":{ 
+	left: "20dp",
+	color: "black",
+	font:{
+		fontSize: "18dp",
+		fontWeight: "bold"
+	}
+} 
+
+"TextField":{ 
+	right:"10dp",
+	left:"10dp",
+	backgroundColor:"white",
+	borderColor:"black",
+	borderWidth:1,
+	borderRadius: 5,
+	height:"50dp",
+	font:{
+		fontSize: "18dp"
+	},
+	color: "black"
+}

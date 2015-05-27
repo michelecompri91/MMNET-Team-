@@ -1,0 +1,43 @@
+<Alloy>
+	<Window id="win_detail_questions" onClose="destroyDbAccess">
+		<Require src="action_bar" type="view" id="v_action_bar"></Require>
+		
+		<ScrollableView id="scrollableV">
+			<View id="v_detail">
+				<View id="v_buttons">
+					<View id="v_delete" onClick="doClick"> 	
+						<Label id="lbl_delete" class="lbl_button">DELETE</Label>
+						<View id="v_devider_right"></View>	
+					</View>
+					<View id="v_reply" onClick="doClick">
+						<View id="v_devider_left"></View> 	
+						<Label id="lbl_reply" class="lbl_button">REPLY</Label>	
+					</View> 
+				</View>
+				
+				
+				<ScrollView id="sv">
+					<View id="v_container" layout="vertical">
+						<Label id="lbl_tag"></Label>
+						<View id="v_devider"></View>
+						<Label id="lbl_question"></Label>
+			 			<Label id="lbl_date_time"></Label>
+			 		<!--	<Label id="wait_load"></Label>  -->
+			 			<Label id="lbl_indirizzo"></Label>
+			 			<ImageView id="imw_image"></ImageView>
+					</View>
+					
+				</ScrollView> 
+			</View>
+			
+			<View id="v_reply">
+				<Require src="reply" type="view" id="reply"></Require>
+		</View> 
+			
+		</ScrollableView>
+		
+		<Require src="footer" type="view" id="v_footer"></Require>
+		
+		
+	</Window>
+</Alloy>

@@ -1,0 +1,178 @@
+"#win_ask[platform=android]":{
+	windowSoftInputMode: Ti.UI.Android.SOFT_INPUT_ADJUST_PAN
+}
+ 
+"#sv":{
+	top: "50dp",
+	bottom: "80dp"
+	// height: "400dp"
+}
+
+
+"#lbl_ask":{
+	left: "20dp",
+	font:{
+		fontSize: "20dp",
+		fontFamily: "Nunito-Regular"
+	},
+	top: "20dp",
+	text: "ASK SOMETHING TO ASK",
+	color: "#ff9201"
+}
+
+"#lbl_devider":{
+	top: "2dp",
+	left: "20dp",
+	right: "20dp",
+	height: 1,
+	backgroundColor: "#d4d4d4"
+}
+
+"#v_txt_msg":{
+	borderRadius: 5,
+	backgroundColor: "#efefef",
+	top: "20dp",
+	height: "50dp",
+	left: "20dp",
+	right: "20dp",
+	color:"black",
+	borderWidth: 2,
+	borderColor: "#e0e0e0"
+}
+
+"#txt_msg":{
+	backgroundColor: "transparent",
+	top: "5dp",
+	left: "5dp",
+	right: "5dp",
+	bottom: "5dp",
+	color: "#545454",
+	font:{
+		fontSize: "20dp",
+		fontFamily: "Nunito-Regular"
+	}
+}
+
+"#img_load":{	
+	top:"5dp",
+	left: "10dp",
+	width: "80dp",
+	borderRadius: 5,
+	backgroundColor: "#feb100",
+	title: "LOAD!",
+	font:{
+		fontSize: "10dp",
+		fontFamily: "Nunito-Regular"
+	},
+	color: "white",
+	shadowColor: "#898989",
+	shadowOffset:{
+		x:2,
+		y:3
+	}
+}
+
+"#b_ask":{
+	top:"5dp",
+	right: "10dp",
+	width: "80dp",
+	borderRadius: 5,
+	backgroundColor: "#feb100",
+	title: "ASK",
+	font:{
+		fontSize: "18dp",
+		fontFamily: "Nunito-Regular"
+	},
+	color: "white",
+	shadowColor: "#898989",
+	shadowOffset:{
+		x:2,
+		y:3
+	}
+}
+
+
+
+"#img_ask":{
+	top:"60dp",
+	left: "20dp",
+	right: "20dp"	
+}
+
+
+
+/*
+"#win_ask[platform=android]":{
+	windowSoftInputMode: Ti.UI.Android.SOFT_INPUT_ADJUST_PAN
+}
+ 
+"#sv":{
+	top: "50dp",
+	bottom: "80dp"
+	// height: "400dp"
+}
+
+
+"#lbl_ask":{
+	left: "20dp",
+	font:{
+		fontSize: "20dp",
+		fontFamily: "Nunito-Regular"
+	},
+	top: "20dp",
+	text: "ASK SOMETHING TO ASK",
+	color: "#ff9201"
+}
+
+"#lbl_devider":{
+	top: "2dp",
+	left: "20dp",
+	right: "20dp",
+	height: 1,
+	backgroundColor: "#d4d4d4"
+}
+
+"#v_txt_msg":{
+	borderRadius: 5,
+	backgroundColor: "#efefef",
+	top: "20dp",
+	height: "200dp",
+	left: "20dp",
+	right: "20dp",
+	color:"black",
+	borderWidth: 2,
+	borderColor: "#e0e0e0"
+}
+
+"#txt_msg":{
+	backgroundColor: "transparent",
+	top: "5dp",
+	left: "5dp",
+	right: "5dp",
+	bottom: "5dp",
+	color: "#545454",
+	font:{
+		fontSize: "20dp",
+		fontFamily: "Nunito-Regular"
+	}
+}
+
+"#b_ask":{
+	top: "20dp",
+	right: "20dp",
+	width: "80dp",
+	borderRadius: 5,
+	backgroundColor: "#feb100",
+	title: "ASK",
+	font:{
+		fontSize: "18dp",
+		fontFamily: "Nunito-Regular"
+	},
+	color: "white",
+	shadowColor: "#898989",
+	shadowOffset:{
+		x:2,
+		y:3
+	}
+}
+*/

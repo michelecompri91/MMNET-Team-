@@ -1,0 +1,21 @@
+<Alloy>
+	<!-- <Collection src="question"></Collection> -->
+	<Window id="index">
+		
+		<Require src="action_bar" type="view" id="v_action_bar"></Require>
+		
+		<Button id="b_event" visible="false"></Button>
+		
+		<ScrollableView id="sv">
+	 		<View id="v_ls_questions">
+	 			<Require src="ls_questions" type="view" id="ls_questions"></Require>
+	 		</View>
+			<View id="v_ls_history">
+				<Require src="ls_history" type="view" id="ls_history"></Require>
+			</View> 
+		</ScrollableView> 
+		
+		<Require src="footer" type="view" id="v_footer"></Require>
+		
+	</Window>
+</Alloy>

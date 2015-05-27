@@ -1,0 +1,41 @@
+"#v_action_bar":{
+	
+	left: 0,
+	right: 0,
+	height: "50dp",
+	backgroundColor: "#feb100",
+	top:0
+	
+}
+
+"#b_notification":{
+	width: "27dp",
+	height: "27dp",
+	left: "10dp",
+	backgroundImage: "/notify.png",
+	title: 0,
+	color: "black"
+}
+
+"#b_refresh":{
+	width: "25dp",
+	height: "25dp",
+	right: "10dp",
+	backgroundImage: "/refresh.png"
+}
+
+
+"#app_icon":{
+	image: "/logo.png",
+	width: "auto",
+	height:"40dp"
+}
+
+
+"#sv":{
+	height:"80%",
+	width: "auto"
+}
+
+ 
+

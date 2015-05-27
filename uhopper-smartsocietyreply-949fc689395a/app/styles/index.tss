@@ -1,0 +1,8 @@
+"#index":{
+	exitOnClose:true
+}
+"#sv":{
+	top: "50dp",
+	bottom: "60dp",
+	scrollingEnabled: false
+}

@@ -1,0 +1,10 @@
+<Alloy>
+	
+	<View id="v_action_bar">
+		
+		<ImageView id="app_icon"></ImageView> 
+		<Button id="b_logout" onClick="doClick"></Button>
+		
+	</View>
+	
+</Alloy>

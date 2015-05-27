@@ -1,0 +1,23 @@
+<Alloy>
+	<Window id="win_ask"> 
+		<Require src="action_bar" type="view" id="v_action_bar"></Require>
+		
+		<ScrollView id="sv" layout="vertical" scrollType="vertical">
+		
+			<Label id="lbl_ask"></Label>
+			<View id="lbl_devider"></View>
+			<View id="v_txt_msg">
+				<TextArea id="txt_msg"></TextArea>
+			</View>
+			<View>
+			<Button id="b_ask" onClick="doClick"></Button>
+		    <Button id="img_load" onClick="image_Load" ></Button> 
+		    <ImageView id="img_ask" ></ImageView>
+			</View>
+		
+		</ScrollView>
+		
+		<Require src="footer" type="view" id="v_footer"></Require>
+	 
+	</Window>
+</Alloy>

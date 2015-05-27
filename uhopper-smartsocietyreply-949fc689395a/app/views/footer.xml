@@ -1,0 +1,19 @@
+<Alloy>
+	<View id="v_footer">
+		
+		<View id="v_transpsarence"></View>
+		<View id="v_tabs">
+			<View id="b_questions" class="btn" onClick="doClick">
+				<Button id="b_img_questions" class="img"></Button>
+			</View>
+			<View id="b_accepted_questions" onClick="doClick">
+				<View id="v_devider_left"></View>
+				<Button id="b_img_accepted_questions" class="img"></Button>
+				<View id="v_devider_right"></View>
+			</View>
+			<View id="b_history" class="btn" onClick="doClick">
+				<Button id="b_img_history" class="img"></Button>
+			</View> 
+		</View>
+	</View>
+</Alloy>

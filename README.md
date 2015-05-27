@@ -1,4 +1,4 @@
-We developed and debbuged our applications with these SW
+
 
 -java version "1.7.0_80"
  OpenJDK Runtime Environment (IcedTea 2.5.5) (7u79-2.5.5-0ubuntu0.14.04.2)

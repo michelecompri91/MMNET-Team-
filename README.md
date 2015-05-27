@@ -23,8 +23,7 @@
 
  sw:
    -Node.js
-   
-  -Oracle Java SDK 
+   -Oracle Java SDK 
  
   add two modules in your project in Titanium: net.iamyellow.gcmjs and bencoding.android.tools
 
